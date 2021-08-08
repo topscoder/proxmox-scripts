@@ -13,3 +13,14 @@ Force restart Proxmox services
 ```bash
 sh restart-services.sh
 ```
+
+Unlock VM
+---
+
+If Proxmox can't access the lock file, you can't do anything with that machine. You want to force release the lock.
+
+```bash
+sh unlock-vm.sh
+```
+
+Credits go to dannyda.com as author for this script.
